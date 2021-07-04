@@ -9,7 +9,7 @@ jobs:
       - run: pwd
       - name: Write file with
         id: write
-        uses: zhangyu1818/write-file-with@1.2.0
+        uses: zhangyu1818/write-file-with@v1
         with:
           file: "README.md"
           script: "./scripts/listed.js"
