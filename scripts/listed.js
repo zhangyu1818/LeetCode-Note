@@ -15,12 +15,11 @@ module.exports = (content) =>
       })
       .map(
         (name) =>
-          `[${name.replace(
-            ".swift",
-            ""
-          )}](https://github.com/zhangyu1818/LeetCode-Note/blob/main/${name})`
+          `[${name.replace(".swift", "")}](${encodeURI(
+            `https://github.com/zhangyu1818/LeetCode-Note/blob/main/${name}`
+          )})`
       )
-      .join("\n");
+      .join("\n\n");
     [content] = content.split("---");
     return `${content}\n---\n\n${swiftFiles}`;
   });
