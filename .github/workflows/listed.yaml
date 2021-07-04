@@ -1,0 +1,16 @@
+name: Listed
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - run: pwd
+      - name: Write file with
+        id: write
+        uses: zhangyu1818/write-file-with@1.2.0
+        with:
+          file: "README.md"
+          script: "./scripts/listed.js"
+      - run: echo "${{ steps.write.outputs.result }}"
