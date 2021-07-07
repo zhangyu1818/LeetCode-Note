@@ -37,3 +37,29 @@ class Solution {
         return result
     }
 }
+
+// 递归
+class Solution {
+    func postorderTraversal(_ root: TreeNode?) -> [Int] {
+        var result = [Int]()
+        var stack = [TreeNode]()
+        var prev: TreeNode?
+        var node = root
+        while !stack.isEmpty || node != nil {
+            while let current = node {
+                stack.append(current)
+                node = current.left
+            }
+            node = stack.removeLast()
+            if node!.right == nil || node!.right === prev {
+                result.append(node!.val)
+                prev = node
+                node = nil
+            } else {
+                stack.append(node!)
+                node = node!.right
+            }
+        }
+        return result
+    }
+}
