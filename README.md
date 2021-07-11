@@ -9,6 +9,7 @@
 
 
 
+
 ---
 
 [21. 合并两个有序链表](https://github.com/zhangyu1818/LeetCode-Note/blob/main/21.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.swift)
@@ -16,6 +17,10 @@
 [83. 删除排序链表中的重复元素](https://github.com/zhangyu1818/LeetCode-Note/blob/main/83.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.swift)
 
 [94. 二叉树的中序遍历](https://github.com/zhangyu1818/LeetCode-Note/blob/main/94.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.swift)
+
+[100. 相同的树 ](https://github.com/zhangyu1818/LeetCode-Note/blob/main/100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91%20.swift)
+
+[101. 对称二叉树 ](https://github.com/zhangyu1818/LeetCode-Note/blob/main/101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20.swift)
 
 [102. 二叉树的层序遍历](https://github.com/zhangyu1818/LeetCode-Note/blob/main/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.swift)
 
