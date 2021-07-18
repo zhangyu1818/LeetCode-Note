@@ -17,7 +17,11 @@
  * }
  */
 
-// 短链表 + 长链表
+/* 短链表 + 长链表
+ 短链表走完走长链表
+ 长链表走完走短链表
+ 这样就能过刨除两条链表长度的差距
+ */
 class Solution {
     func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
         var pA = headA

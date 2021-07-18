@@ -15,11 +15,17 @@
  *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
  * }
  */
+
+/*
+ 抽离奇节点和偶节点成2条链表
+ 然后将偶节点接在奇节点后面
+ */
 class Solution {
     func oddEvenList(_ head: ListNode?) -> ListNode? {
         var oddHead = head
         var evenHead = head?.next
         var even = evenHead
+        // 偶节点为nil就到尾了
         while evenHead?.next != nil {
             let oddNext = oddHead!.next?.next
             oddHead!.next = oddNext

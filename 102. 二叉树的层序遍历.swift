@@ -21,7 +21,10 @@
  * }
  */
 
-// 栈就是深度优先，队列就是广度优先
+/*
+ 每一次循环将下一层的节点都加入队列
+ 那么下轮循环时，队列里只有下一层的节点
+ */
 class Solution {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
         var result = [[Int]]()

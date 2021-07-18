@@ -16,7 +16,11 @@
  * }
  */
 
-// 递归求解（我知道它是简单，但是我想了一个小时）
+/* 递归求解（我知道它是简单，但是我想了一个小时）
+ 有序链表，每次递归只删除与当前节点值相同的节点（也就是后n个相同值节点）
+ 再将下一个节点的值递归删除
+ 终止条件为链表走完
+ */
 class Solution {
     func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         guard var p = head else { return nil }

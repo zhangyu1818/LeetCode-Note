@@ -21,6 +21,11 @@
  * }
  */
 
+/*
+ 递归和迭代混合的奇怪解法
+ 如果当前节点有child，则将child接在当前节点后，在遍历child链表，将原石next接在child链表后
+ 然后递归分离next
+ */
 class Solution {
     func flat(_ head: Node?) {
         guard let node = head else { return }
