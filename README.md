@@ -18,6 +18,7 @@
 
 
 
+
 ---
 
 [2. 两数相加](https://github.com/zhangyu1818/LeetCode-Note/blob/main/2.%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.swift)
@@ -37,6 +38,8 @@
 [101. 对称二叉树 ](https://github.com/zhangyu1818/LeetCode-Note/blob/main/101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20.swift)
 
 [102. 二叉树的层序遍历](https://github.com/zhangyu1818/LeetCode-Note/blob/main/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.swift)
+
+[104. 二叉树的最大深度](https://github.com/zhangyu1818/LeetCode-Note/blob/main/104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.swift)
 
 [138. 复制带随机指针的链表](https://github.com/zhangyu1818/LeetCode-Note/blob/main/138.%20%E5%A4%8D%E5%88%B6%E5%B8%A6%E9%9A%8F%E6%9C%BA%E6%8C%87%E9%92%88%E7%9A%84%E9%93%BE%E8%A1%A8.swift)
 
